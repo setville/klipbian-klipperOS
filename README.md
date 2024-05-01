@@ -46,7 +46,6 @@ First boot
    5.1 sudo passwd mobian
    5.2 type password 123456
    5.3 type your own password on the fields provided. mind the prompt
-
    5.4 sudo passwd root
    5.5 type password 123456
    5.6 type your own password on the fields provided. mind the prompt
