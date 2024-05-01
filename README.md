@@ -63,6 +63,6 @@ USB
 
 BATTERY/POWER SUPPLY
 
->WARNING UNPACKING MOBILE PHONE BATTERIES IS DANGEROUS, A SMALL PUNCTURE WOULD CAUSE THE BATTERY TO EXPLODE/COMBUST VIOLENTLY, IF YOU ARE UNSURE OF WHAT YOU ARE DOING, DO NOT UNPACK THESE BATTERIES WILLY NILLY LEST YOU BURN YOUR HOUSE DOWN!
+>WARNING!!! UNPACKING MOBILE PHONE BATTERIES IS DANGEROUS, A SMALL PUNCTURE WOULD CAUSE THE BATTERY TO EXPLODE/COMBUST VIOLENTLY, IF YOU ARE UNSURE OF WHAT YOU ARE DOING, DO NOT UNPACK THESE BATTERIES WILLY NILLY LEST YOU BURN YOUR HOUSE DOWN!
 
 - The default battery is fine for supplying power for short term prints but it's advisable to remove the battery pouch and solder a buck converter to the battery bms, set the buck output to 4 volts and power it directly from the printer psu. i did a rough estimate of power consumption and power draw rarely reaches 400mA so a LM2596 module should do just fine. in my case i used a mini360 clone and tapped it to my other buck with 12V output, not advisable but it works for me.
