@@ -37,21 +37,19 @@ First boot
    - enter password 123456
 
 2 Resize the partition using resize2fs (sdcard)
-   2.1 sudo resize2fs /dev/mmcblk1p1
-
-   2.2 enter password 123456
+   - sudo resize2fs /dev/mmcblk1p1
+   - enter password 123456
 
 3. Reboot
-   3.1 sudo reboot
-
-   3.2 enter password 123456
+   - sudo reboot
+   - enter password 123456
    
 5. You can also change the default password which is 123456 for both root account and mobian account
-   5.1 sudo passwd mobian
-   5.2 type password 123456
-   5.3 type your own password on the fields provided. mind the prompt
-   5.4 sudo passwd root
-   5.5 type password 123456
-   5.6 type your own password on the fields provided. mind the prompt
+   - sudo passwd mobian
+   - type password 123456
+   - type your own password on the fields provided. mind the prompt
+   - sudo passwd root
+   - type password 123456
+   - type your own password on the fields provided. mind the prompt
    
 At this point the klipperscreen ui should show up, from there you can connect to your wifi and access the phone via ssh and enjoy your self built sonic pad for less than a quarter of the price. We only have one usb port to play with so be gentle with it. a usb hub is essential if you want to use extra usb ports for a pico adxl for instance or even a multiboard setup. The default battery is fine for supplying power for short term prints but it's advisable to remove the battery pouch and solder a buck converter to the battery bms, set the buck output to 4 volts and power it directly from the printer psu. i did a rough estimate of power consumption and power draw rarely reaches 400mA so a LM2596 module should do just fine. in my case i used a mini360 clone and tapped it to my other buck with 12V output, not advisable but it works for me.
