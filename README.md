@@ -33,9 +33,8 @@ Flashing procedure (built in sd card)
 
 First boot
 1. Resize the partition using resize2fs (built in emmc)
-
-   1.1 sudo resize2fs /dev/mmcblk0p30
-   1.2 enter password 123456
+   - sudo resize2fs /dev/mmcblk0p30
+   - enter password 123456
 
 2 Resize the partition using resize2fs (sdcard)
    2.1 sudo resize2fs /dev/mmcblk1p1
