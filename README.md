@@ -30,3 +30,5 @@ Flashing procedure (built in sd card)
 4. flash boot.img using the command "fastboot flash boot boot.img" without quotes.
 5. Turn off phone and plug in sdcard
 6. Turn on the phone.
+
+At this point the klipperscreen ui should show up, from there you can connect to your wifi and access the phone via ssh and enjoy your self built sonic pad for less than a quarter of the price. We only have one usb port to play with so be gentle with it. a usb hub is essential if you want to use extra usb ports for a pico adxl for instance or even a multiboard setup. The default battery is fine for supplying power for short term prints but it's advisable to remove the battery pouch and solder a buck converter to the battery bms, set the buck output to 4 volts and power it directly from the printer psu. i did a rough estimate of power consumption and power draw rarely reaches 400mA so a mini360 should do just fine.
