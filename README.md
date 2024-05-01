@@ -41,7 +41,7 @@ First boot
    - enter password 123456
 
 2 Resize the partition using resize2fs (sdcard)
-   - sudo resize2fs /dev/mmcblk1p1
+   - sudo resize2fs /dev/mmcblk1
    - enter password 123456
 
 3. Reboot
