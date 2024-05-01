@@ -1,4 +1,4 @@
-# redmi2pi
+# redmi2pi-klipperOS
 Mobian distro for klipper 3d printing firmware on redmi 2 wt88047.
 Includes kiauh, klipper 3d printer firmware, moonraker api, mainsail webui and klipperscreen.
 numpy is also preinstalled for resonance compensation analysis.
