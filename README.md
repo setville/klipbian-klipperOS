@@ -38,16 +38,14 @@ First boot
    1.2 enter password 123456
 
 2 Resize the partition using resize2fs (sdcard)
-
    2.1 sudo resize2fs /dev/mmcblk1p1
 
    2.2 enter password 123456
 
 3. Reboot
+   3.1 sudo reboot
 
-   3.1 sudo reboot\n
-
-   3.2 enter password 123456\n
+   3.2 enter password 123456
    
 5. You can also change the default password which is 123456 for both root account and mobian account
    5.1 sudo passwd mobian
