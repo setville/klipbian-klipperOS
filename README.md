@@ -5,6 +5,7 @@ numpy is also preinstalled for resonance compensation analysis.
 All credits goes to postmarketos.org mobian.org and debian.org which made this project possible.
 
 Introduction
+
     The image is 6.4GB and will fit an 8G variant just fine, however it is much better to use a class 10 sdcard with larger capacity for long term use since we are going to upload macros, gcodes and other stuff to the device, heck you can even turn it into a music player, download torrents or watch movies on the tiny screen while you print but that is beyond the scope of this document. (booooo!!!!). Wifi connectivity is working using klipperscreen, however, polkit authentication is disabled for NetworkManager at the moment. The phone orientation is landscape with the micro usb on the right side of the phone. This distro is safe but you are most welcome to check everything out.
 
 Requirements:
