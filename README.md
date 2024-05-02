@@ -1,3 +1,5 @@
+![BatteryMod](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/fbec7608-4a4b-4c53-949e-013544a3eaed)
+![redmi2pi-klipperOS](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/10991d85-50be-4f8b-bd5b-c7d5fd68ff9a)
 # redmi2pi-klipperOS
 
 Mobian distro for klipper 3d printing firmware on redmi 2 wt88047.
