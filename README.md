@@ -1,6 +1,5 @@
-![BatteryMod](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/fbec7608-4a4b-4c53-949e-013544a3eaed)
-![redmi2pi-klipperOS](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/10991d85-50be-4f8b-bd5b-c7d5fd68ff9a)
 # redmi2pi-klipperOS
+![redmi2pi-klipperOS_small](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/5c24a2ae-8f96-4369-ad7d-7c4667ee7b0e)
 
 Mobian distro for klipper 3d printing firmware on redmi 2 wt88047.
 Includes kiauh, klipper 3d printer firmware, moonraker api, mainsail webui and klipperscreen.
@@ -71,3 +70,5 @@ BATTERY/POWER SUPPLY
 >WARNING!!! UNPACKING MOBILE PHONE BATTERIES IS DANGEROUS, A SMALL PUNCTURE WOULD CAUSE THE BATTERY TO EXPLODE/COMBUST VIOLENTLY, IF YOU ARE UNSURE OF WHAT YOU ARE DOING, DO NOT UNPACK THESE BATTERIES WILLY NILLY LEST YOU BURN YOUR HOUSE DOWN!
 
 - The default battery is fine for supplying power for short term prints but it's advisable to remove the battery pouch and solder a buck converter to the battery bms, set the buck output to 4 volts and power it directly from the printer psu. i did a rough estimate of power consumption and power draw rarely reaches 400mA so a LM2596 module should do just fine. in my case i used a mini360 clone and tapped it to my other buck with 12V output, not advisable but it works for me.
+![BatteryMod_small](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/9244633e-c4f7-492a-9eb8-3f63d427bbda)
+
