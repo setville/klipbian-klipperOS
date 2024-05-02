@@ -21,19 +21,22 @@ Prep work:
 2. https://wiki.postmarketos.org/wiki/Xiaomi_Redmi_2_(xiaomi-wt88047)#How_to_enter_flash_mode
 3. https://wiki.lineageos.org/adb_fastboot_guide#On_Windows
 
+>WARNING!!! Be sure to have a backup of your phone's firmware and a full nandroid backup with twrp so you wont have to reflash lineageos everytime things don't work.
+- After downloading the zip file, unpack it and open a command prompt or powershell terminal ing the folder. make sure you have the path of platform tools included in yout Environment variables.(refer to Prep work #3)
+
 Flashing procedure (built in emmc)
-1. Put phone in fastboot mode and flash lk2nd.img using the command "fastboot flash boot lk2nd.img" without quotes.
-2. reboot phone in lk2nd fastboot mode (refer to prep work #2)
+1. Put phone in fastboot mode and flash lk2nd.img using the commands "fastboot erase boot" followed by "fastboot flash boot lk2nd.img" without quotes.
+2. reboot phone in lk2nd fastboot mode (refer to prep work #2) or issue a "fastboot reboot"
 3. flash the rootfs.img using the command "fastboot flash userdata rootfs.img" without quotes.
 4. flash boot.img using the command "fastboot flash boot boot.img" without quotes.
 
 Flashing procedure (built in sd card)
 1. flash rootfs.img to sd card using balena etcher in windows or dd in linux.
-2. Put phone in fastboot mode and flash lk2nd.img using the command "fastboot flash boot lk2nd.img" without quotes.
-3. reboot phone in lk2nd fastboot mode (refer to prep work #2)
+2. Put phone in fastboot mode and flash lk2nd.img using the commands "fastboot erase boot" followed by "fastboot flash boot lk2nd.img" without quotes.
+3. reboot phone in lk2nd fastboot mode (refer to prep work #2) or issue a "fastboot reboot"
 4. flash boot.img using the command "fastboot flash boot boot.img" without quotes.
-5. Turn off phone and plug in sdcard
-6. Turn on the phone.
+5. Turn the phone off and plug in sdcard
+6. Turn on the phone
 
 First boot
 1. Resize the partition using resize2fs (built in emmc)
