@@ -1,4 +1,6 @@
 # redmi2pi-klipperOS
+> WARNING DO NOT DOWNLOAD YET, SERIAL DRIVERS NEED TO BE FIXED in v0.1.0 beta!
+
 ![redmi2pi-klipperOS_small](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/5c24a2ae-8f96-4369-ad7d-7c4667ee7b0e)
 
 Mobian distro for klipper 3d printing firmware on redmi 2 wt88047.
