@@ -59,10 +59,10 @@ First boot
    
 5. You can also change the default password which is 123456 for both root account and mobian account
    - sudo passwd mobian
-   - type password 123456
+   - type password 1234
    - type your own password on the fields provided. mind the prompt
    - sudo passwd root
-   - type password 123456
+   - type password 1234
    - type your own password on the fields provided. mind the prompt
    
 At this point the klipperscreen ui should show up, from there you can connect to your wifi and access the phone via ssh and enjoy your self built sonic pad for less than a quarter of the price. 
