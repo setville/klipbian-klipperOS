@@ -47,15 +47,15 @@ Flashing procedure (built in sd card)
 First boot
 1. Resize the partition using resize2fs (built in emmc)
    - sudo resize2fs /dev/mmcblk0p30
-   - enter password 123456
+   - enter password 1234
 
 2 Resize the partition using resize2fs (sdcard)
    - sudo resize2fs /dev/mmcblk1
-   - enter password 123456
+   - enter password 1234
 
 3. Reboot
    - sudo reboot
-   - enter password 123456
+   - enter password 1234
    
 5. You can also change the default password which is 123456 for both root account and mobian account
    - sudo passwd mobian
