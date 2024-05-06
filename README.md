@@ -9,9 +9,10 @@ All credits goes to postmarketos.org mobian.org and debian.org kiauh klipper moo
 
 The image is based on debian Trixie and is 6.4GB. It will fit an 8G variant just fine, however it is much better to use a class 10 sdcard with larger capacity for long term use since we are going to upload macros, gcodes and other stuff to the device, heck you can even turn it into a music player, download torrents or watch movies on the tiny screen while you print but that is beyond the scope of this document. (booooo!!!!). Wifi connectivity is working using klipperscreen, however, polkit authentication is disabled for NetworkManager at the moment. The phone orientation is landscape with the micro usb on the right side of the phone. This distro is safe but you are most welcome to check everything out.
 
-Kernel Source: https://github.com/msm8916-mainline/linux
-lk2nd Source: https://github.com/msm8916-mainline/lk2nd
-rootfs source: Official Debian Trixie Repo
+## Sources
+- Kernel Source: https://github.com/msm8916-mainline/linux
+- lk2nd Source: https://github.com/msm8916-mainline/lk2nd
+- rootfs source: Official Debian Trixie Repo
 
 >DISCLAIMER
 - I am not responsible for bricked phones, battery explosions, burnt houses, 3d printer nozzle dives, broken heatbreaks, burned tmc drivers, spaghetti prints or thermonuclear war... Please do some research if you have any concerns about doing this to your device. YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you. (common phone flashing mod disclaimer twisted a bit to fit 3d printing stuff) 
