@@ -2,7 +2,7 @@
 
 ![redmi2pi-klipperOS_small](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/5c24a2ae-8f96-4369-ad7d-7c4667ee7b0e)
 
-Mobian distro for klipper 3d printing firmware on redmi 2 wt88047.
+Debian distro for klipper 3d printing firmware on redmi 2 wt88047.
 Includes kiauh, klipper 3d printer firmware, moonraker api, mainsail webui and klipperscreen.
 All credits goes to postmarketos.org mobian.org and debian.org kiauh klipper moonraker mainsail klipperscreen devs and the entire 3d printing community which made this project possible.
 
