@@ -1,4 +1,4 @@
-# redmi2pi-klipperOS
+# klipbian-klipperOS
 
 ![redmi2pi-klipperOS_small](https://github.com/setville/redmi2pi-klipperOS/assets/168615479/5c24a2ae-8f96-4369-ad7d-7c4667ee7b0e)
 
